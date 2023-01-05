@@ -3,10 +3,6 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-//sql connection
-const sql = require("msnodesqlv8");
-
-
 //for te static documents
 app.use(express.static(__dirname + "/public"));
 
